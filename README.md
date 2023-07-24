@@ -21,9 +21,7 @@ Welcome to the Deep-Learning-based-Noise-Type-Classification-and-Denoising GitHu
 
 ## Getting Started
 
-Follow these steps to get started with MultiDenoiseNet:
-
-1. Clone the repository to your local machine using the following command:
+Follow these steps to get started with Deep-Learning-based-Noise-Type-Classification-and-Denoising:
 
 ```bash
 git clone https://github.com/your-username/MultiDenoiseNet.git
