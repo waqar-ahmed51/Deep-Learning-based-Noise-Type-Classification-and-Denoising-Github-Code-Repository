@@ -33,11 +33,11 @@ This paper proposes a two-stage framework that classifies the noise type followe
 2. Matlab code with instructions is available inside `matlab_code_for_dataset_processing` for dataset creation.
 3. Complete Framework code with instructions is available in `image_noise_classification_and_denoising_complete_experiment.ipynb`.
 
-## Get Started Guide
+## Get Started
 
 1. Clone the repository into your local storage.
 2. Install Python 3.10.5.
 3. Install Jupyter Notebook.
-4. Run each cell one by one by following the instructions.
+4. Run `image_noise_classification_and_denoising_complete_experiment.ipynb` each cell one by one by following the instructions.
 
 **Note:** This repository contains the outcomes of numerous experiments conducted at different stages of our research. Due to the extensive nature of our work, the information in the code may appear scattered. We appreciate your understanding and thank you for your interest in our research.
