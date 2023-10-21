@@ -10,17 +10,20 @@ Recent advancements in deep learning have enabled significant progress in image 
 
 This paper proposes a two-stage framework that classifies the noise type
 followed by denoising based on the predicted noise type. In the first stage, a Convolutional Neural Network (CNN)-based classifier is utilized. The CNN is trained to classify the noisy image into four classes: Gaussian, Salt & Pepper, Poisson, and Speckle. For the second stage of denoising, four separate Denoising Autoencoders (DAEs) have been trained to handle each classified case using its specialized DAE. Lastly, the performance of the proposed framework is evaluated at different stages of the experiment by calculating the peak-signal-to-noise ratio (PSNR).
+![figure-3](https://github.com/waqar-ahmed51/Deep-Learning-based-Noise-Type-Classification-and-Denoising-Github-Code-Repository/assets/54082156/8cd0b2ca-1a71-43af-861a-8c3cd4851074)
 
 ## Proposed Framework Architecture
+![figure-2](https://github.com/waqar-ahmed51/Deep-Learning-based-Noise-Type-Classification-and-Denoising-Github-Code-Repository/assets/54082156/397a2b11-af49-4b40-84bc-b296d9e3cccb)
 
--- Framework image here
 
 ## Datasets
 1. CIFAR-100 (https://www.kaggle.com/datasets/alincijov/cifar-100)- For Trainging and Validating 
 2. CIFAR-10 (https://www.kaggle.com/c/cifar-10) - For Testing
 3. BSD500 (link) - For Testing High Resolution Images
-4. Randomly collected drone-captured images samples - As an application example for the proposed framework  
+4. Randomly collected drone-captured images samples - As an Application Example
 
+## Convolutional Neural Network (CNN)
+![figure-4](https://github.com/waqar-ahmed51/Deep-Learning-based-Noise-Type-Classification-and-Denoising-Github-Code-Repository/assets/54082156/07e83583-f7c6-4519-936b-337ed0428679)
 
 1. **Two-Stage Denoising Approach**: The core of MultiDenoiseNet lies in its two-stage approach, combining noise type classification and denoising. Unlike single-stage approaches that suffer from reduced effectiveness, our method accurately classifies the noise type in an image before applying a noise-specific denoising filter. This allows for improved denoising performance on diverse types of noise artifacts.
 
