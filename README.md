@@ -1,9 +1,8 @@
-# Deep-Learning-based-Noise-Type-Classification-and-Denoising
+# Deep Learning-based Noise Type Classification and Classification and Removal For Image Restoration
 
+Welcome to the Deep Learning-based Noise Type Classification and Classification and Removal For Image Restoration GitHub repository! This repository contains the code and comprehensive documentation for the research paper titled "Deep Learning-based Noise Type Classification and Classification and Removal For Image Restoration" This work presents a novel two-stage denoising framework capable of classifying and effectively denoising images corrupted with four different types of noise. The proposed methodology achieves a remarkable classification accuracy of 98% and ensures high-quality image restoration, making it a versatile solution for various applications requiring image denoising without prior knowledge of the noise type.
 
-## Description
-
-Welcome to the Deep-Learning-based-Noise-Type-Classification-and-Denoising GitHub repository! This repository contains the code and comprehensive documentation for the research paper titled "Deep Learning-based Multi-Type Image Denoising." This work presents a novel two-stage denoising framework capable of classifying and effectively denoising images corrupted with four different types of noise. The proposed methodology achieves a remarkable classification accuracy of 98% and ensures high-quality image restoration, making it a versatile solution for various applications requiring image denoising without prior knowledge of the noise type.
+## Abstract
 
 ## Key Features
 
@@ -26,4 +25,5 @@ Follow these steps to get started with Deep-Learning-based-Noise-Type-Classifica
 ```bash
 git clone https://github.com/your-username/MultiDenoiseNet.git
 
- 
+
+```
