@@ -16,10 +16,10 @@ followed by denoising based on the predicted noise type. In the first stage, a C
 -- Framework image here
 
 ## Datasets
-CIFAR-10 (https://www.kaggle.com/c/cifar-10)
-CIFAR-100 (https://www.kaggle.com/datasets/alincijov/cifar-100) 
-BSD500 (link)
-Randomly collected drone-captured images samples (Available in the repository).
+1. CIFAR-100 (https://www.kaggle.com/datasets/alincijov/cifar-100)- For Trainging and Validating 
+2. CIFAR-10 (https://www.kaggle.com/c/cifar-10) - For Testing
+3. BSD500 (link) - For Testing High Resolution Images
+4. Randomly collected drone-captured images samples - As an application example for the proposed framework  
 
 
 1. **Two-Stage Denoising Approach**: The core of MultiDenoiseNet lies in its two-stage approach, combining noise type classification and denoising. Unlike single-stage approaches that suffer from reduced effectiveness, our method accurately classifies the noise type in an image before applying a noise-specific denoising filter. This allows for improved denoising performance on diverse types of noise artifacts.
@@ -46,4 +46,4 @@ git clone https://github.com/your-username/MultiDenoiseNet.git
 
 
 
-Note: This repository contains the outcomes of numerous experiments conducted at different stages of our research. Due to the extensive nature of our work, the information in the code may appear scattered. We appreciate your understanding and thank you for your interest in our research.
+**Note:** This repository contains the outcomes of numerous experiments conducted at different stages of our research. Due to the extensive nature of our work, the information in the code may appear scattered. We appreciate your understanding and thank you for your interest in our research.
