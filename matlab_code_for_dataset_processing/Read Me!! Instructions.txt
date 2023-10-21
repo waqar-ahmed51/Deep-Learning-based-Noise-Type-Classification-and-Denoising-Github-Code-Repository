@@ -1,0 +1,5 @@
+Just put some rgb images in the "rgb_imgs" and run "compelete img_process_code.m" 
+in matlab and it wil automatically generate the different calsses of images(with noises)
+in different directories. 
+
+ 
