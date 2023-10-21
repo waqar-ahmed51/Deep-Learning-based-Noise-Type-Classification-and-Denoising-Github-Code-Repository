@@ -13,16 +13,22 @@ This paper proposes a two-stage framework that classifies the noise type followe
 ![figure-3](https://github.com/waqar-ahmed51/Deep-Learning-based-Noise-Type-Classification-and-Denoising-Github-Code-Repository/assets/54082156/8cd0b2ca-1a71-43af-861a-8c3cd4851074)
 
 ## Proposed Framework Architecture
+
 ![figure-2](https://github.com/waqar-ahmed51/Deep-Learning-based-Noise-Type-Classification-and-Denoising-Github-Code-Repository/assets/54082156/397a2b11-af49-4b40-84bc-b296d9e3cccb)
 
-
 ## Datasets
+
 1. [CIFAR-100](https://www.kaggle.com/datasets/alincijov/cifar-100)
 2. [CIFAR-10](https://www.kaggle.com/c/cifar-10)
 3. [BSD500](https://www.kaggle.com/datasets/kavithak1388/bsd500original)
 4. Randomly collected drone-captured image samples
+
 ## Convolutional Neural Network (CNN)
+
 ![figure-4](https://github.com/waqar-ahmed51/Deep-Learning-based-Noise-Type-Classification-and-Denoising-Github-Code-Repository/assets/54082156/07e83583-f7c6-4519-936b-337ed0428679)
+
+## Resources
+
 1. Datasets are available in the repository.
 2. Matlab code with instructions is available inside `matlab_code_for_dataset_processing` for dataset creation.
 3. Complete Framework code with instructions is available in `image_noise_classification_and_denoising_complete_experiment.ipynb`.
